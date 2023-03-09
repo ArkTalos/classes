@@ -1,10 +1,12 @@
 #include "Sentance.h"
 
-int Sentance::sentance()
+std::string Sentance::sentance(std::string inputSentence)
 {
-	return 0;
+	std::string setSentance = inputSentence;
+	return setSentance;
 }
 
 void Sentance::print(std::string theText)
 {
+
 }

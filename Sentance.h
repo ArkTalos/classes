@@ -11,7 +11,7 @@ class Sentance
 private:
 	std::string theSentance;
 public:
-	int sentance();
+	std::string sentance(std::string inputSentence);
 	void print(std::string theText);
 };
 
