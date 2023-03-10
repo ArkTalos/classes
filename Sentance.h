@@ -12,7 +12,7 @@ private:
 	std::string theSentance;
 public:
 	std::string sentance(std::string inputSentence);
-	void print(std::string theText);
+	void printSentence();
 };
 
 #endif

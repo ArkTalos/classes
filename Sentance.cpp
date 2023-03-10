@@ -2,11 +2,12 @@
 
 std::string Sentance::sentance(std::string inputSentence)
 {
-	theSentance = inputSentence;
+	std::string theSentance = inputSentence;
 	return theSentance;
 }
 
-void Sentance::print(std::string theText)
+void Sentance::printSentence()
 {
+	std::string theText = theSentance;
 	std::cout << theText;
 }

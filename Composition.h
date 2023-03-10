@@ -15,7 +15,7 @@ private:
 public:
 	void addAParagraph();
 	void addSentance(std::string aSentance);
-	void print();
+	void printComposition();
 };
 
 #endif // !"COMPOSITION_HEADER"

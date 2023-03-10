@@ -12,7 +12,7 @@ private:
 	std::vector<std::string> sentenceArray;
 public:
 	void addASentence(std::string theText);
-	void print();
+	void printParagraph();
 };
 
 #endif
