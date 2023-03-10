@@ -1,6 +1,6 @@
 #include "Sentance.h"
 
-std::string Sentance::sentance(std::string inputSentence)
+stdSentance::sentance(std::string inputSentence)
 {
 	theSentance = inputSentence;
 	return theSentance;
