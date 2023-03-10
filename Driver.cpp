@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "Composition.h"
 
 int main()
 {

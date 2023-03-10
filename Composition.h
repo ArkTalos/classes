@@ -9,7 +9,7 @@
 class Composition 
 {
 private:
-	std::vector<int> paragraphArray;
+	std::vector<std::string> paragraphArray;
 	int currentParagraph;
 
 public:
