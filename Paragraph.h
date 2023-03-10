@@ -9,7 +9,7 @@
 class Paragraph
 {
 private:
-	std::vector<int> sentenceArray;
+	std::vector<std::string> sentenceArray;
 public:
 	void addASentence(std::string theText);
 	void print();
