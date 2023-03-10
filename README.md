@@ -1,5 +1,5 @@
 # classes
-#This program is a simple text editor that allows the user to create a composition in pieces. The user can enter new sentences or start a new paragraph. The program stores the composition in memory and allows the user to print it out.
+This program is a simple text editor that allows the user to create a composition in pieces. The user can enter new sentences or start a new paragraph. The program stores the composition in memory and allows the user to print it out.
 
 The program consists of three classes: Composition, Paragraph, and Sentence. The Composition class is responsible for managing the composition, while the Paragraph class manages the paragraphs, and the Sentence class manages the sentences.
 
