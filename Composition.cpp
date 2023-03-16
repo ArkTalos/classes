@@ -11,10 +11,10 @@ void Composition::addAParagraph()
 	currentParagraph++;
 }
 
-void Composition::addSentance(std::string aSentance)
+void Composition::addSentence(std::string aSentence)
 {
 	Paragraph objSentence;
-	objSentence.addASentence(aSentance);
+	objSentence.addASentence(aSentence);
 }
 
 void Composition::printComposition()

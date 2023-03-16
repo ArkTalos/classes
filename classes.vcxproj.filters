@@ -24,7 +24,7 @@
     <ClCompile Include="Paragraph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sentance.cpp">
+    <ClCompile Include="Sentence.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,7 +35,7 @@
     <ClInclude Include="Paragraph.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sentance.h">
+    <ClInclude Include="Sentence.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

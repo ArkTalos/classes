@@ -1,15 +1,18 @@
 #include "Paragraph.h"
-#include "Sentance.h"
+#include "Sentence.h"
 #include <sstream>
+#include <vector>
+
+
 
 void Paragraph::addASentence(std::string theText)
 {
-   Sentance objSentence;
-   std::string setString = objSentence.sentance(theText);
-	sentenceArray.push_back(setString);
+   Sentence objSentence;
+   /*sentenceArray.push_back(objSentence.sentence(theText));*/
+   sentenceArray.push_back(theText);
 }
 
-void Paragraph::printParagraph()
+std::string Paragraph::printParagraph()
 {
    std::stringstream ss;
 
@@ -20,5 +23,6 @@ void Paragraph::printParagraph()
       }
       ss << sentenceArray.at(position);
    }
-   std::cout << ss.str() << std::endl;
+
+   return ss.str();
 }

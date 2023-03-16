@@ -130,12 +130,12 @@
     <ClCompile Include="Driver.cpp" />
     <ClCompile Include="Composition.cpp" />
     <ClCompile Include="Paragraph.cpp" />
-    <ClCompile Include="Sentance.cpp" />
+    <ClCompile Include="Sentence.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Composition.h" />
     <ClInclude Include="Paragraph.h" />
-    <ClInclude Include="Sentance.h" />
+    <ClInclude Include="Sentence.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

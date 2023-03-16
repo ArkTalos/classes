@@ -14,7 +14,7 @@ private:
 
 public:
 	void addAParagraph();
-	void addSentance(std::string aSentance);
+	void addSentence(std::string aSentence);
 	void printComposition();
 };
 
