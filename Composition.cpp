@@ -3,18 +3,15 @@
 
 void Composition::addAParagraph()
 {
-	std::string paragraph;
-	Paragraph objPrintParagraph;
-	objPrintParagraph.printParagraph();
-	std::cin >> paragraph;
-	paragraphArray.push_back(paragraph);
+	Paragraph newParagraph;
+	paragraphArray.push_back(newParagraph);
 	currentParagraph++;
 }
 
 void Composition::addSentence(std::string aSentence)
 {
-	Paragraph objSentence;
-	objSentence.addASentence(aSentence);
+	
+	paragraphArray[currentParagraph].addASentence(aSentence);
 }
 
 void Composition::printComposition()
@@ -22,7 +19,7 @@ void Composition::printComposition()
 	std::cout << std::endl;
 	for (int position = 0; position < paragraphArray.size(); position++)
 	{
-		std::cout << paragraphArray.at(position) << std::endl;
+		std::cout << paragraphArray[position].printParagraph() << std::endl;
 		std::cout << std::endl;
 	}
 }

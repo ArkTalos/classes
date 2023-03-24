@@ -12,17 +12,17 @@ void Paragraph::addASentence(std::string theText)
    sentenceArray.push_back(theText);
 }
 
-std::string Paragraph::printParagraph()
+void Paragraph::printParagraph()
 {
-   std::stringstream ss;
+   //std::stringstream ss;
 
    for (int position = 0; position < sentenceArray.size(); position++)
    {
       if (position != 0) {
-         ss << " ";
+         std::cout << " ";
       }
-      ss << sentenceArray.at(position);
+      std::cout << sentenceArray[position];
+      std::cout << std::endl;
    }
 
-   return ss.str();
 }

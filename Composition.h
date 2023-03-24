@@ -5,12 +5,13 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "Paragraph.h"
 
 class Composition 
 {
 private:
-	std::vector<std::string> paragraphArray;
-	int currentParagraph;
+	std::vector<Paragraph> paragraphArray;
+	int currentParagraph = -1;
 
 public:
 	void addAParagraph();
