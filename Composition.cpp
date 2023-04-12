@@ -19,7 +19,7 @@ void Composition::printComposition()
 	std::cout << std::endl;
 	for (int position = 0; position < paragraphArray.size(); position++)
 	{
-		std::cout << paragraphArray[position].printParagraph() << std::endl;
+		paragraphArray[position].printParagraph();
 		std::cout << std::endl;
 	}
 }
